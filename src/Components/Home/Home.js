@@ -58,7 +58,7 @@ useEffect(() =>{
   data.length > 0 ? data.map((el,i) =>{
     return (
       <div className="box" key={i}>
-      <img src={`/uploads/${el.imgpath}`} alt="profile" className="profile-img" />
+      <img src={`https://mern-image-upload-project.onrender.com/uploads/${el.imgpath}`} alt="profile" className="profile-img" />
       <div className="name">User Name : {el.fname} </div>
       <div className="date">Date Added: {moment(el.date).format("L")}</div>
       <div className="delete-btn">
